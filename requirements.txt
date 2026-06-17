@@ -1,0 +1,15 @@
+# Core application dependencies. Model weights are downloaded at runtime and
+# should be stored outside the Git repository.
+numpy>=1.26,<3
+packaging>=24,<26
+pandas>=2.2,<3
+python-dateutil>=2.9,<3
+datasets>=3.0,<4
+faiss-cpu>=1.8,<2
+sentence-transformers>=3.0,<4
+transformers>=4.45,<5
+torch>=2.2,<3
+accelerate>=0.34,<2
+streamlit>=1.38,<2
+scikit-learn>=1.5,<2
+tqdm>=4.66,<5

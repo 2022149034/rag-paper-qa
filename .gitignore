@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments and secrets
+.venv/
+venv/
+.env
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Downloaded model weights and caches
+models/*
+!models/.gitkeep
+.cache/
+huggingface/
+*.bin
+*.safetensors
+*.gguf
+
+# Generated retrieval artifacts and local outputs
+data/index/
+data/faiss.index
+data/chunk_metadata.json
+results/*
+!results/comparison_results.csv
